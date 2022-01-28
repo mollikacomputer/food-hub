@@ -7,15 +7,47 @@ html {
 }
 body {
   margin: 0 auto;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
   font-family: "Bebas Neue", cursive;
   font-family: "Lobster", cursive;
   font-family: "Oxygen", sans-serif;
   font-family: "Poppins", sans-serif;
+}
+.heading-font {
+  font-family: "Anton", sans-serif;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-family: "Oxygen", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.header-left-bg {
+  background-image: url(/images/Group5.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+section {
+  margin: 50px auto;
+}
+
+.input-field {
+  width: 20em;
+  height: 3em;
+  border-radius: 1.5em;
+  border: white;
+}
+.input-field:focus {
+  outline: none;
+}
+
+.submit-btn {
+  width: 10em;
+  height: 3em;
+  background-color: black;
+  color: white;
+  border-radius: 1.5em;
+  margin-left: -4em;
+}
+
+::placeholder {
+  padding-left: 1em;
 }
