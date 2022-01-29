@@ -20,11 +20,21 @@ body {
   font-family: "Oxygen", sans-serif;
   font-family: "Poppins", sans-serif;
 }
-.header-left-bg {
-  background-image: url(/images/Group5.png);
+.dot-bg {
+  background-image: url("images/dot-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+/* .header-left-bg {
+  background-image: url("images/dot-bg.png");
   background-position: left;
   background-repeat: no-repeat;
-}
+} */
+/* .header-left-bg {
+  background: url("images/dot-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+} */
 section {
   margin: 50px auto;
 }
@@ -50,4 +60,7 @@ section {
 
 ::placeholder {
   padding-left: 1em;
+}
+a {
+  text-decoration: none;
 }
